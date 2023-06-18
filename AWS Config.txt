@@ -1,0 +1,5 @@
+TelegramAPI - https://miy2fv082g.execute-api.us-east-1.amazonaws.com/CreditHiveBot
+
+Telegram BOT Token - 6176673584:AAFQpmlW2wuNx4HlEkLL7op8qRJjjY3XXdE
+
+https://api.telegram.org/bot6176673584:AAFQpmlW2wuNx4HlEkLL7op8qRJjjY3XXdE/setWebhook?url=https://miy2fv082g.execute-api.us-east-1.amazonaws.com/CreditHiveBot
