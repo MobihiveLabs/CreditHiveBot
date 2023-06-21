@@ -2,8 +2,21 @@ const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 const util = require('util');
 const { TOKEN } = require('dotenv');
-
 const bot = new TelegramBot('6176673584:AAFQpmlW2wuNx4HlEkLL7op8qRJjjY3XXdE', { polling: true });
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/' , (req , res ) =>{
+  res.send("Hello From Docker!");
+})
+
+app.listen(port, () =>{
+  console.log(`Bot app is listing on port ${port} `);
+})
+
+
+
 
 const chatId = "";
 const wait = util.promisify(setTimeout);
